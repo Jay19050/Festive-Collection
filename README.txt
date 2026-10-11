@@ -32,3 +32,10 @@ V9: homepage editorial feature images now use separate transparent PNG cutouts. 
 V10: removed large peach/olive/rust blobs behind homepage editorial products. Transparent product PNGs now sit on the continuous ivory canvas with subtle CSS drop shadows; original catalog images are unchanged.
 
 V11: homepage feature images now use large, individually shaped organic crops of the original product photographs. The original photo pixels/background remain intact inside each flow shape; outside the shape is transparent. Catalog JPEGs remain unchanged.
+
+
+PRODUCT CATALOG AUDIT (11 Oct 2026)
+- Product prices and bundle offers were checked against the supplied 22-page Diwali Stuff.pdf.
+- Added the missing Rangoli Dia ($15.99) using the original photo embedded on PDF page 7.
+- The potli offer is represented as a set of 3 for $9.99 so the cart cannot calculate a zero/unknown single-item price.
+- Fancy diya subtype names are descriptive visual labels; the source PDF labels these designs generically as Fancy Dia.
