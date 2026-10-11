@@ -1,1 +1,83 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f9f1de"><title>Collection — Rang·Ritual</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body><header class="nav"><a class="brand" href="index.html">RANG<span>·</span>RITUAL</a><nav><a href="index.html">Home</a><a href="shop.html">Collection</a><a href="about.html">Our story</a></nav><button class="cart-trigger" id="openCart">Bag <span id="cartCount">0</span> <span class="bag-icon">↗</span></button><button class="menu" id="menuBtn" aria-label="Open menu">☰</button></header><main><section class="shop-banner"><p class="eyebrow">RANG·RITUAL / THE FESTIVE EDIT</p><h1>The Collection<span class="shop-period">.</span></h1><p>Little details. Beautiful traditions.</p><div class="shop-banner-note"><span></span>Thoughtful pieces for your festive moments</div></section><section class="catalog shop-catalog"><div class="catalog-head"><div class="catalog-title"><p class="eyebrow">SHOP THE EDIT</p><h3>Find your festive favorites</h3><p class="catalog-subtitle">A considered collection of light, color, and tradition.</p></div><div class="filters" id="filters" aria-label="Filter products by category"><button class="active" data-filter="all">All pieces</button><button data-filter="diya">Diyas</button><button data-filter="fancy">Fancy diyas</button><button data-filter="tray">Puja trays</button><button data-filter="puja">Puja details</button><button data-filter="rangoli">Rangoli</button><button data-filter="potli">Potli</button></div></div><div class="catalog-status"><span>CURATED FOR YOUR CELEBRATIONS</span><span id="resultCount">22 pieces</span></div><div class="products" id="products" aria-live="polite"></div></section><section class="closing"><p class="eyebrow">FOUND YOUR FAVORITES?</p><h2>A little glow<br><em>goes a long way.</em></h2><a href="index.html" class="cta">Back to home ↗</a><div class="closing-wave" aria-hidden="true"><svg viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,34 C90,48 122,62 218,40 C310,18 351,76 454,67 C548,59 594,31 680,42 C773,54 812,82 909,64 C1001,47 1046,26 1134,42 C1226,59 1282,77 1361,47 C1394,35 1421,32 1440,38 L1440,100 L0,100 Z" fill="#77763c"/></svg></div></section></main><footer><a class="brand" href="index.html">RANG<span>·</span>RITUAL</a><p>Colorful details. Beautiful celebrations.</p><a href="index.html">Back to home ↑</a><small>Prices in CAD · Order details confirmed directly with us</small></footer><div class="scrim" id="scrim"></div><aside class="cart-panel" id="cartPanel" aria-label="Shopping cart"><div class="cart-head"><div><p class="eyebrow">YOUR SELECTION</p><h2>Your bag <span id="drawerCount">(0)</span></h2></div><button id="closeCart" class="close" aria-label="Close cart">×</button></div><div id="cartItems" class="cart-items"><div class="empty">Your bag is waiting for a little glow.</div></div><div class="cart-bottom"><div class="subtotal"><span>Subtotal</span><strong id="subtotal">$0.00</strong></div><p class="cart-hint">Bundle offers are applied automatically where available.</p><button id="orderBtn" class="order-btn">Continue to order ↗</button><p class="cart-hint">WhatsApp ordering can be connected by adding your number in <code>script.js</code>.</p></div></aside><script src="script.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f9f1de">
+    <title>Collection — Rang·Ritual</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="nav"><a class="brand" href="index.html">RANG<span>·</span>RITUAL</a>
+        <nav><a href="index.html">Home</a><a href="shop.html">Collection</a><a href="about.html">Our story</a></nav>
+        <button class="cart-trigger" id="openCart">Bag <span id="cartCount">0</span> <span
+                class="bag-icon">↗</span></button><button class="menu" id="menuBtn" aria-label="Open menu">☰</button>
+    </header>
+    <main>
+        <section class="shop-banner">
+            <p class="eyebrow">RANG·RITUAL / THE FESTIVE EDIT</p>
+            <h1>The Collection<span class="shop-period">.</span></h1>
+            <p>Little details. Beautiful traditions.</p>
+            <div class="shop-banner-note"><span></span>Thoughtful pieces for your festive moments</div>
+        </section>
+        <section class="catalog shop-catalog">
+            <div class="catalog-head">
+                <div class="catalog-title">
+                    <p class="eyebrow">SHOP THE EDIT</p>
+                    <h3>Find your festive favorites</h3>
+                    <p class="catalog-subtitle">A considered collection of light, color, and tradition.</p>
+                </div>
+                <div class="filters" id="filters" aria-label="Filter products by category"><button class="active"
+                        data-filter="all">All pieces</button><button data-filter="diya">Diyas</button><button
+                        data-filter="fancy">Fancy diyas</button><button data-filter="tray">Puja trays</button><button
+                        data-filter="puja">Puja details</button><button data-filter="rangoli">Rangoli</button><button
+                        data-filter="potli">Potli</button></div>
+            </div>
+            <div class="catalog-status"><span>CURATED FOR YOUR CELEBRATIONS</span><span id="resultCount">22
+                    pieces</span></div>
+            <div class="products" id="products" aria-live="polite"></div>
+        </section>
+        <section class="closing">
+            <p class="eyebrow">FOUND YOUR FAVORITES?</p>
+            <h2>A little glow<br><em>goes a long way.</em></h2><a href="index.html" class="cta">Back to home ↗</a>
+            <div class="closing-wave" aria-hidden="true"><svg viewBox="0 0 1440 100" preserveAspectRatio="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0,34 C90,48 122,62 218,40 C310,18 351,76 454,67 C548,59 594,31 680,42 C773,54 812,82 909,64 C1001,47 1046,26 1134,42 C1226,59 1282,77 1361,47 C1394,35 1421,32 1440,38 L1440,100 L0,100 Z"
+                        fill="#77763c" />
+                </svg></div>
+        </section>
+    </main>
+    <footer><a class="brand" href="index.html">RANG<span>·</span>RITUAL</a>
+        <p>Colorful details. Beautiful celebrations.</p><a href="index.html">Back to home ↑</a><small>Prices in CAD ·
+            Order details confirmed directly with us</small>
+    </footer>
+    <div class="scrim" id="scrim"></div>
+    <aside class="cart-panel" id="cartPanel" aria-label="Shopping cart">
+        <div class="cart-head">
+            <div>
+                <p class="eyebrow">YOUR SELECTION</p>
+                <h2>Your bag <span id="drawerCount">(0)</span></h2>
+            </div><button id="closeCart" class="close" aria-label="Close cart">×</button>
+        </div>
+        <div id="cartItems" class="cart-items">
+            <div class="empty">Your bag is waiting for a little glow.</div>
+        </div>
+        <div class="cart-bottom">
+            <div class="subtotal"><span>Subtotal</span><strong id="subtotal">$0.00</strong></div>
+            <p class="cart-hint">Bundle offers are applied automatically where available.</p><button id="orderBtn"
+                class="order-btn">Continue to order ↗</button>
+            <p class="cart-hint">WhatsApp ordering can be connected by adding your number in <code>script.js</code>.</p>
+        </div>
+    </aside>
+    <script src="script.js"></script>
+</body>
+
+</html>
