@@ -282,3 +282,25 @@
     transform: none;
   }
 }
+
+
+/* V11: wavy transition from the closing section into the footer, same pattern as the hero wave */
+.closing { position: relative; overflow: hidden; }
+.closing-wave {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: clamp(42px, 6.5vw, 88px);
+  pointer-events: none;
+  line-height: 0;
+}
+.closing-wave svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.closing-wave svg path { fill: #77763c; }
+@media (max-width: 620px) {
+  .closing-wave { height: 44px; }
+}
